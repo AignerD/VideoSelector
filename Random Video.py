@@ -662,7 +662,7 @@ class VideoSelector(QWidget):
         print('test')
 
 # =============================================================================
-# Application Entry Point
+# Application Entry Points
 # =============================================================================
 
 if __name__ == '__main__':
