@@ -68,11 +68,10 @@ print(f'Database is located at: {db_path}')
 # =============================================================================
 # Main Application Window
 # =============================================================================
+# Main application window for selecting, opening, and tracking videos.
 
 class VideoSelector(QWidget):
-    """
-    Main application window for selecting, opening, and tracking videos.
-    """
+
     def __init__(self):
         super().__init__()
         self.last_deleted_entry = None
