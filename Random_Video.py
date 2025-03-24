@@ -170,7 +170,7 @@ class VideoSelector(QWidget):
                 border-radius: 5px;
             }
             QPushButton:hover {
-                background-color: #005999;
+                background-color: #0059;
             }
             QLineEdit {
                 padding: 5px;
@@ -657,9 +657,11 @@ class VideoSelector(QWidget):
             QMessageBox.information(self, 'Added', f'"{name}" was added to the history.')
             self.update_history_table()
 
+    def test(self):
+        print('test')
 
 # =============================================================================
-# Application Entry Point
+# Application Entry Points
 # =============================================================================
 
 if __name__ == '__main__':
